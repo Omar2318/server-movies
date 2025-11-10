@@ -20,6 +20,6 @@ export class CreateMovieDto {
 
     @Min(0)
     @IsNumber()
-    rating: number;
+    raiting: number;
 }
 

@@ -21,6 +21,6 @@ export class Movie {
     poster_url: string;
 
     @Column('numeric',{default: 0})
-    rating: number;
+    raiting: number;
 
 }
